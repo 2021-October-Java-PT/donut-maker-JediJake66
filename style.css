@@ -1,0 +1,225 @@
+html {
+  background-image: url(images\giphy.gif);
+  background-size: 100%;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+h3 {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  background-color: sandybrown;
+}
+
+.donutClickerButton {
+  background-image: url(images\giphy.gif);
+  height: 200px;
+  width: 200px;
+  font-size: x-large;
+  border-radius: 50%;
+  transition-duration: 0.4s;
+  color: springgreen;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.donutClickerButton:hover {
+  height: 225px;
+  width: 225px;
+}
+
+.autoClickerPurchase {
+  background-image: url(images\giphy.gif);
+  height: 200px;
+  width: 200px;
+  font-size: x-large;
+  border-radius: 50%;
+  transition-duration: 0.2s;
+  color: springgreen;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.autoClickerPurchase:hover {
+  height: 225px;
+  width: 225px;
+}
+
+.multiplierPurchase {
+  background-image: url(images\giphy.gif);
+  height: 200px;
+  width: 200px;
+  font-size: x-large;
+  border-radius: 50%;
+  transition-duration: 0.4s;
+  color: springgreen;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.multiplierPurchase:hover {
+  height: 225px;
+  width: 225px;
+}
+
+#resetButton {
+  background-image: url(images\resetDonuts.jpg);
+  background-size: 100%;
+  font-size: 75px;
+  color: crimson;
+  height: 200px;
+  width: 200px;
+  border-radius: 25%;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+#resetButton:hover {
+  height: 100px;
+  width: 100px;
+  font-size: 25px;
+}
+
+.resetClass {
+  display: flex;
+  justify-content: center;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+a {
+  color: black;
+}
+
+
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal2 {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal3 {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+}
+#about{
+  background-color:  blueviolet;
+  font-size: larger;
+}
+
+#about2{
+  background-color:  blueviolet;
+  font-size: larger;
+}
+
+#about3{
+  background-color:  blueviolet;
+  font-size: larger;
+}
+
+.aboutFred {
+  background-color: purple;
+  font-size: larger;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  border-radius: 25%;
+}
+
+.aboutCookie {
+  
+  background-color: purple;
+  font-size: larger;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  border-radius: 25%;
+}
+
+.contactMe {
+  background-color: purple;
+  font-size: larger;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  border-radius: 25%;
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.close2 {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close2:hover,
+.close2:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.close3 {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close3:hover,
+.close3:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}

@@ -4,10 +4,77 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Donut Clicker</title>
   </head>
   <body>
-    <div class="container"></div>
-    <script src="./index.js"></script>
+    
+      <header>
+        <nav>
+          <button id="about">About the Baker</button>
+            <div id="myModal" class="modal">
+              <div class="aboutFred">
+                <span class="close">&times;</span>
+                <p>Fred the Baker started making donuts when he was small child. He learned from his father who learned from his father before him. All Fred wants now is to pass on a better business to his son. With all the long hours in the donut shop, Fred didn't want his son to live a long life of stress and flour so he commissioned this site so everyone in the world can get Fred's Delicious Donuts!!</p>
+            </div>
+            </div>
+
+
+            <button id="about2">Inspiration</button>
+            <div id="myModal2" class="modal2">
+              <div class="aboutCookie">
+                <span class="close2">&times;</span>
+                <p>My inspiration for this game was<a href="https://orteil.dashnet.org/cookieclicker/"</a> Cookie Clicker</p>
+            </div>
+            </div>
+
+
+            <button id="about3">Contact</button>
+            <div id = "myModal3" class="modal3">
+              <div class="contactMe">
+                <span class="close3">&times;</span>
+              <p>Find Me On<a href="https://github.com/JediJake66"</a> GitHub</p>
+              <p>Send Me A Message On <a href="https://www.linkedin.com/in/jacob-a-stout/"</a> LinkedIn</p>
+              </div>
+            </div>
+            </nav>        
+      </header>
+      <main>
+        <div class="container">
+        <div class="clickHandling">
+          <button class="donutClickerButton">Click For Donuts!!</button>
+          <h3>Current Donut Count <span class="amountOfDonuts">0</span></h3>
+          <h3>Donuts per Click <span class="donutsPerClick">1</span></h3>
+        </div>
+
+        <div class="clickMultiplier">
+          <button class="multiplierPurchase">Buy Donut Multiplier</button>
+
+          <h3>
+            Current Multiplier Count <span class="amountOfMultipliers">0</span>
+          </h3>
+
+          <h3>
+            Current Multiplier Cost <span class="costOfMultiplier">10</span>
+          </h3>
+        </div>
+
+        <div class="autoClicker">
+          <button class="autoClickerPurchase">Buy Auto Clickers</button>
+
+            
+
+          <h3>
+            Auto Clickers Purchased <span class="amoutOfClickers">0</span>
+          </h3>
+
+          <h3>Cost Of Auto Clicker <span class="costOfClicker">50</span></h3>
+        </div>
+      </main>
+    </div>
+    <div class="resetClass">
+    <button id="resetButton">Reset</button>
+    </div>
+    <script src="./donut-app.js"></script>
   </body>
 </html>
